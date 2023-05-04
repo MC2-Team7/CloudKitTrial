@@ -11,6 +11,7 @@
 		40B3CEB52A03916200D733C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B3CEB42A03916200D733C4 /* ContentView.swift */; };
 		40B3CEB72A03916300D733C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B3CEB62A03916300D733C4 /* Assets.xcassets */; };
 		40B3CEBA2A03916300D733C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B3CEB92A03916300D733C4 /* Preview Assets.xcassets */; };
+		40B3CEC12A0393D300D733C4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 40B3CEC02A0393D300D733C4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		40B3CEB42A03916200D733C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40B3CEB62A03916300D733C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B3CEB92A03916300D733C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40B3CEC02A0393D300D733C4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		40B3CEC22A0394EA00D733C4 /* CloudKitTrial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitTrial.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		40B3CEA62A03916200D733C4 = {
 			isa = PBXGroup;
 			children = (
+				40B3CEC02A0393D300D733C4 /* .gitignore */,
 				40B3CEB12A03916200D733C4 /* CloudKitTrial */,
 				40B3CEB02A03916200D733C4 /* Products */,
 			);
@@ -51,6 +55,7 @@
 		40B3CEB12A03916200D733C4 /* CloudKitTrial */ = {
 			isa = PBXGroup;
 			children = (
+				40B3CEC22A0394EA00D733C4 /* CloudKitTrial.entitlements */,
 				40B3CEB22A03916200D733C4 /* CloudKitTrialApp.swift */,
 				40B3CEB42A03916200D733C4 /* ContentView.swift */,
 				40B3CEB62A03916300D733C4 /* Assets.xcassets */,
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B3CEBA2A03916300D733C4 /* Preview Assets.xcassets in Resources */,
+				40B3CEC12A0393D300D733C4 /* .gitignore in Resources */,
 				40B3CEB72A03916300D733C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitTrial/CloudKitTrial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CloudKitTrial/Preview Content\"";
@@ -293,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudKitTrial/CloudKitTrial.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CloudKitTrial/Preview Content\"";
