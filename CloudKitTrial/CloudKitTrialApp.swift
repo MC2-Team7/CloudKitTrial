@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import CloudKit
 
 @main
 struct CloudKitTrialApp: App {
+    
+    // public container
+    let container = CKContainer(identifier: "iCloud.com.example.cookcook")
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(vm: ItemListViewModel(container: container))
         }
     }
 }
